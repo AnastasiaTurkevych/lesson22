@@ -1,0 +1,31 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.sidenav>li{
+    padding: 20px;
+}
+.box{
+    display: flex;
+    justify-content:flex-end;
+}
+.box>i{
+    font-size: 50px;
+    padding: 15px;
+}
+.info-box{
+    position: relative;
+    padding: 40px 0;
+}
+.info-boximg{
+    position: absolute;
+    top: -20px;
+    left: 20px;
+}
+.info{
+    justify-content: end;
+}
+.more_space{
+    display: flex;
+    align-items: center;
+
+}
