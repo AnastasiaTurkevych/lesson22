@@ -65,3 +65,32 @@ header, main, footer {
 td{
     padding-left: 20px;
 }
+.user{
+    padding: 30px;
+}
+.btn{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.profile{
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+}
+.profile>img{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+}
+.prof{
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+}
+.prof>.pad{
+    padding-top: 100px;
+}
