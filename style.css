@@ -36,6 +36,9 @@ body{
     flex-direction: column;
     justify-content: center;
 }
+.card-image{
+    align-self: center;
+}
 .imgeq{
     position: absolute;
     width: 80%;
@@ -58,6 +61,7 @@ header, main, footer {
     width: 80%;
     position: absolute;
     top: -20px;
+    align-self: center;
   }
   .up{
     position: relative;
@@ -106,3 +110,29 @@ td{
 #top{
     padding-top: 100px;
 }
+.page-footer{
+    padding-bottom: 50px;
+    padding-right: 20px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    padding-top: 70px;
+}
+.form2{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.titleinfo2{
+    width: 80%;
+    position: absolute;
+    top: -20px;
+    z-index: 3;
+    align-self: center;
+    padding-left: 20px;
+  }
+
